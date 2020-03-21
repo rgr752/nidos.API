@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\USER\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\USER\.Rider2019.3\config\extensions" t="IncludeRecursive" />
     <e p="C:\Users\USER\.Rider2019.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\USER\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_.19.00" t="ExcludeRecursive" />
     <e p="C:\Users\USER\Desktop\project\nidos.API" t="IncludeRecursive">
@@ -9,17 +10,27 @@
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Controllers" t="Include">
+        <e p="AuthController.cs" t="Include" />
         <e p="WeatherForecastController.cs" t="Include" />
       </e>
       <e p="Data" t="Include">
+        <e p="AuthRepository.cs" t="Include" />
         <e p="DataContext.cs" t="Include" />
+        <e p="IAuthRepository.cs" t="Include" />
+      </e>
+      <e p="Dto" t="Include">
+        <e p="UserLoginDto.cs" t="Include" />
+        <e p="UserRegisterDto.cs" t="Include" />
       </e>
       <e p="Migrations" t="Include">
         <e p="20200319225237_InitialCreate.cs" t="Include" />
         <e p="20200319225237_InitialCreate.Designer.cs" t="Include" />
+        <e p="20200319234218_AddedUserEntity.cs" t="Include" />
+        <e p="20200319234218_AddedUserEntity.Designer.cs" t="Include" />
         <e p="DataContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
+        <e p="User.cs" t="Include" />
         <e p="Value.cs" t="Include" />
       </e>
       <e p="nidos.API.csproj" t="IncludeRecursive" />
