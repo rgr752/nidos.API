@@ -9,7 +9,7 @@
       <e p="appsettings.Development.json" t="Include" />
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
-      <e p="Controllers" t="Include">
+      <e p="Controller" t="Include">
         <e p="AuthController.cs" t="Include" />
         <e p="WeatherForecastController.cs" t="Include" />
       </e>
@@ -29,7 +29,7 @@
         <e p="20200319234218_AddedUserEntity.Designer.cs" t="Include" />
         <e p="DataContextModelSnapshot.cs" t="Include" />
       </e>
-      <e p="Models" t="Include">
+      <e p="Model" t="Include">
         <e p="User.cs" t="Include" />
         <e p="Value.cs" t="Include" />
       </e>

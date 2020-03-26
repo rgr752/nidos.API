@@ -1,4 +1,5 @@
 ﻿using System.Threading.Tasks;
+using nidos.API.Model;
 
 namespace nidos.API
 {

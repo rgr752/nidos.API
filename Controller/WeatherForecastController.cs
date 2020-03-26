@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace nidos.API.Controllers
+namespace nidos.API.Controller
 {
     [Authorize]
     [ApiController]

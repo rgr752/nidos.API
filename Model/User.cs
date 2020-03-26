@@ -1,4 +1,4 @@
-﻿namespace nidos.API
+﻿namespace nidos.API.Model
 {
     public class User
     {

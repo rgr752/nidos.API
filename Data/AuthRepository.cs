@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using nidos.API.Model;
 
 namespace nidos.API
 {
@@ -65,7 +66,6 @@ namespace nidos.API
                 return true;
             
             return false;
-
         }
     }
 }

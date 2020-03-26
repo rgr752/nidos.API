@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using nidos.API.Model;
 
 namespace nidos.API
 {

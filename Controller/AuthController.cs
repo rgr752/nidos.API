@@ -7,8 +7,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using nidos.API.Dto;
+using nidos.API.Model;
 
-namespace nidos.API.Controllers
+namespace nidos.API.Controller
 {
     [Route("api/[controller]")]
     [ApiController]
